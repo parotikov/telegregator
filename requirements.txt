@@ -1,0 +1,6 @@
+peewee==3.13.3
+pyaes==1.6.1
+pyasn1==0.4.8
+python-dotenv==0.14.0
+rsa==4.6
+Telethon==1.15.0

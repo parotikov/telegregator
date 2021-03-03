@@ -1,0 +1,10 @@
+version: "3"
+services:
+  tggt:
+    build: ./
+    image: tggt:1.0
+    container_name: tggt
+    volumes:
+      - ./:/usr/src/app
+    command: python agregator.py
+    restart: unless-stopped
