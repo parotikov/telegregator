@@ -20,7 +20,7 @@
 - выполняем миграцию: `python database.py`
 - запускаем: `python agregator.py`
 
-### Docker
+### Docker (см. известные проблемы внизу)
 - `docker build . -t tggt:1.0`
 - `docker run --name tggt -v "$PWD":/usr/src/myapp -w /usr/src/myapp -d --restart unless-stopped tggt:1.0 python agregator.py`
 или 
